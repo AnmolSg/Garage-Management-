@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F4F6F8;
+    color: #0F172A;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* FullCalendar Scania Enterprise Overrides */
+.scania-calendar-wrapper .fc {
+  font-family: 'Public Sans', sans-serif;
+  --fc-border-color: #E2E8F0;
+  --fc-today-bg-color: #F8FAFC;
+  --fc-page-bg-color: #FFFFFF;
+}
+
+.scania-calendar-wrapper .fc-col-header-cell {
+  background-color: #FAFAFA;
+  padding: 10px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.scania-calendar-wrapper .fc-timegrid-slot {
+  height: 4.25rem;
+}
+
+.scania-calendar-wrapper .fc-timegrid-slot-label-cushion {
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #64748B;
+}
+
+.scania-calendar-wrapper .fc-v-event,
+.scania-calendar-wrapper .fc-h-event {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.scania-calendar-wrapper .fc-timegrid-event-harness {
+  margin: 1px 2px;
+}

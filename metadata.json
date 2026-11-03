@@ -1,0 +1,8 @@
+{
+  "name": "Fleet Service Planning & Garage Management",
+  "description": "Enterprise Fleet Service Planning, Maintenance Scheduling, and Garage Management System with PostgreSQL persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
